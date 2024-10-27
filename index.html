@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">Weather App</div>
+        <div class="section_1">
+            <input type="text" name="city" id="city_input">
+            <button id="get_weather" class="icon-button">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+        <div class="weather_card">
+            <div class="weather"><div><img src="Assets/clear.png" alt="clear" id ="weather"></div></div>
+            <div class="info"><span id="weather_info"></span></div>
+            <div class="info"><span id="city"></span></div>
+            <div class="dateinfo">
+                <div>
+                    <span id="date"></span>
+                    <span id="year"></span>
+                </div>
+                <div class ="day">
+                    <span id="day"></span>
+                </div>
+            </div>
+        </div>
+        <div class="section_2">
+            <div class="card">
+                <div class="info"><img src="Assets/temp.png" alt="temp"> <div>Temperature</div><span id="temp"></span></div>
+                <div class="info"><img src="Assets/pressure.png" alt="pressure"> <div>Pressure</div><span id="pressure"></span></div>
+            </div>
+            <div class="card">
+                <div class="info"><img src="Assets/humidity.png" alt="humidity"> <div>Humidity</div><span id="humidity"></span></div>
+                <div class="info"><img src="Assets/wind.png" alt="wind_speed"> <div>Wind Speed</div><span id="windspeed"></span></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
