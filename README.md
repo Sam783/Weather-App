@@ -29,10 +29,10 @@ The Weather App is a sleek web application designed to deliver up-to-the-minute 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/Sam783/Weather-App.git
 2. **Navigate to the Project Directory**:
    ```bash
-   cd weather-app
+   cd Weather-App
 3. **Open the Application**: Locate and open the index.html file in your preferred web browser.
   
 4. **Search for Weather Information**: Enter the name of a city into the search bar and click the search button to view the current weather information.
